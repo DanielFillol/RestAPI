@@ -19,7 +19,7 @@ You need to build the database locally:
 - [Table](https://github.com/Darklabel91/RestAPI/blob/master/Scripts/table)
 - [Insert](https://github.com/Darklabel91/RestAPI/blob/master/Scripts/Insert)
 
-Don't forget to check, if needed change the ```url``` ```username``` ```password``` on [dataSource](src/main/java/fiaprestapi/com/example/restapi/dataSource.java)
+Don't forget to check and change it (if needed) the ```url``` ```username``` ```password``` on [dataSource](src/main/java/fiaprestapi/com/example/restapi/dataSource.java)
 
 ## Endpoint Examples
 - GET juris/1 (error)
