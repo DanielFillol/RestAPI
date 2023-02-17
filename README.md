@@ -7,9 +7,9 @@ API developed to use data made available on TJSP decisions and apply a simple CR
 |--------|----------------------------------------|-------------------------------------|-------------------|----------------------------|
 | POST   | juris/                                 | Create a new juris on the database  | Status:200        | Status: 500  - JSON        |
 | GET    | juris/                                 | Read all juris from database        | Status:200 - JSON | Status: 500  - JSON        | 
-| PUT    | juris/{id}                             | Update a juris by given id          | Status:200 - JSON | Status: 500  - JSON        |
-| DELETE | juris/{id}                             | Delete a juris by given id          | Status:200 - JSON | Status: 500  - JSON        |
-| GET    | juris/{id}                             | Read a juris with given id          | Status:200 - JSON | Status: 500  - JSON        |
+| PUT    | juris/{id}                             | Update juris by given id            | Status:200 - JSON | Status: 500  - JSON        |
+| DELETE | juris/{id}                             | Delete juris by given id            | Status:200 - JSON | Status: 500  - JSON        |
+| GET    | juris/{id}                             | Read juris with given id            | Status:200 - JSON | Status: 500  - JSON        |
 
 
 ## Run Locally 
