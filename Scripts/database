@@ -1,0 +1,2 @@
+
+CREATE DATABASE `JurisDatabase` /*!40100 DEFAULT CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;

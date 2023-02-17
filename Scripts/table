@@ -1,0 +1,18 @@
+CREATE TABLE `jurisprudences` (
+  `id_juris` int NOT NULL AUTO_INCREMENT,
+  `lawsuit_number` varchar(25) COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `lawsuit_class` varchar(200) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `lawsuit_judge` varchar(200) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `lawsuit_city` varchar(200) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `lawsuit_city_jurisdiction` varchar(200) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `trial_date` varchar(45) COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `publication_date` varchar(45) COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `secrecy` varchar(45) COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `lawsuit_court` varchar(45) COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `lawsuit_link_pdf_decision` varchar(200) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `decision_complete` text COLLATE utf8mb3_unicode_ci,
+  `decision_short` text COLLATE utf8mb3_unicode_ci,
+  `lawsuit_court_jurisdiction` varchar(45) COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `juris_type` varchar(45) COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id_juris`)
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
